@@ -1,0 +1,30 @@
+Create database with name :- myblog
+It has 3 tables 
+1 . categories 
+2. posts
+3. user
+
+categories 
+column name - cid Data type :- int 
+column name - name Data type :- varchar
+column name - description :- varchar
+
+posts
+column name - pid - Data Type - int 
+column name - pTitle - varchar
+column name - pContent - longtext
+column name - pCode - longtext
+column name - pPic - varchar
+column name -pDate - timestamp
+column name - catId -- foreign key 
+column name - userId - foreign key
+
+user
+column name - Id - Data Type - int 
+column name - user_name - varchar
+column name - user_email - longtext
+column name - user_password - longtext
+column name - user_gender - varchar
+column name -user_aboutUs - varchar
+column name - regDate -- timestamp
+
